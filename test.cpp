@@ -27,7 +27,7 @@ public:
     void owalk();
 
     ~Human() {
-        print("\n------I'm Removed!");
+        print("\n------",name,"is Removed!");
     }
 };
 
