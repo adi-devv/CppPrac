@@ -27,7 +27,7 @@ public:
     void owalk();
 
     ~Human() {
-        print("\n------",name,"is Removed!");
+        print("\n-----",name,"is Removed!");
     }
 };
 
@@ -49,8 +49,8 @@ public:
 int main() {
     print("HI HUIHUIHUI");
 
-    string a = "aaa";
-    print("hhaaha", a);
+    string a = "aaaa";
+    print("hhaaaha", a);
 
     Human hu("h");
     hu.walk(4.5f);
@@ -61,7 +61,7 @@ int main() {
     hu2->walk(4);
 
     SubHuman subhu("hahahsubhu");
-    subhu.walk(700.0f);
+    subhu.walk(7100.0f);
     print(subhu.weapon);
 
     delete hu2;
