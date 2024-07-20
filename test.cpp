@@ -47,7 +47,7 @@ public:
 };
 
 int main() {
-    print("HI HUIHUIHUI");
+    print("HI HUIHUaIHUI");
 
     string a = "aaaa";
     print("hhaaaha", a);
