@@ -5,7 +5,7 @@ using namespace std;
 
 template<typename... Args>
 void print(const Args&... args) {
-    ((std::cout << args << ' '), ...);
+    ((std::cout << args << '  '), ...);
     std::cout << std::endl;
 }
 
