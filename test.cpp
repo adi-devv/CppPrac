@@ -32,7 +32,7 @@ public:
 };
 
 void Human::owalk() {
-    print("Outside walking..");
+    print("Outside walking....");
 }
 
 class SubHuman : public Human {
