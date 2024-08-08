@@ -9,7 +9,7 @@ int& increment(int &x) {
 int main() {
     int a = 10;
     int &aref = a;                         // independent ref
-    int &ref = increment(aref);           // ref func
+    int &ref = increment(aref);           // ref funct
     
     cout << "a: " << aref << endl;  
     cout << "ref: " << ref << endl; 
