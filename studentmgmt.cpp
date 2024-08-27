@@ -10,7 +10,7 @@ struct Student {
 };
 
 void displayStudent(const Student& student) {
-    cout << "ID: " << student.id << ", Name: " << student.name << ", Grade: " << student.grade << endl;
+    cout << "ID : " << student.id << ", Name: " << student.name << ", Grade: " << student.grade << endl;
 }
 
 int main() {
