@@ -10,7 +10,7 @@ int main() {
     int range;
     int difficulty;
 
-    cout << "Select difficulty level (1- Easy, 2- Medium, 3- Hard): ";
+    cout << "Select difficulty level (1- Easy , 2- Medium, 3- Hard): ";
     cin >> difficulty;
 
     switch(difficulty) {
